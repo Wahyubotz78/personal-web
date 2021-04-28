@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+header {
+    background-image: url(my.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    border-bottom: 1px solid rgb(129, 127, 127);
+}
+
+.navigasi-header {
+    margin-top: 200px;
+    display: inline-block;
+    width: 650px;
+}
+
+.navigasi-header p {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.navigasi-box-ig, .navigasi-box-fb, .navigasi-box-tg, .navigasi-box-gh {
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.navigasi-ig, .navigasi-fb, .navigasi-tg, .navigasi-gh {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.navigasi-ig:hover, .navigasi-fb:hover, .navigasi-tg:hover, .navigasi-gh:hover {
+    background-color: grey;
+}
+
+.spacing {
+    padding-right: 20px;
+}
+
+
+a {
+    color: black;
+}
+
+main {
+    background-color: rgb(235, 231, 231);
+    border-bottom: 1px solid rgb(146, 146, 146);
+}
+
+article {
+    margin: 40px 372px;
+    height: 250px;
+    width: 600px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(223, 223, 223);
+}
+
+
+article h3{
+    padding: 20px 40%;
+    font-family: cursive;
+}
+
+article p {
+    padding: 0px 30px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+span {
+    padding-left: 500px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-box h2{
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.navigasi-box-portofolio {
+    display: inline-block;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+
+.navigasi-portofolio {
+    display: inline-block;
+    padding: 20px 55px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px  rgb(71, 71, 71);
+}
+
+.navigasi-portofolio:hover {
+    background-color: black;
+    color: white;
+}
+
+.navigasi-box-about {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.navigasi-about {
+    display: inline-block;
+    padding: 20px 65px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px rgb(71, 71, 71);
+}
+
+.navigasi-about:hover {
+    background-color: rgb(235, 231, 231);
+    color: black;
+}
+
+
+footer {
+    height: 100px;
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+}
